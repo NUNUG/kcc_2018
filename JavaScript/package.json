@@ -1,0 +1,32 @@
+{
+  "name": "kids-code-con-2018-complete",
+  "version": "1.0.0",
+  "description": "This is the complete, working version of the Kids Code Con 2018 JavaScript project.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "watch": "webpack --watch",
+    "serve": "webpack-dev-server --open",
+    "wbuild": "webpack"
+  },
+  "dependencies": {
+    "babel-preset-env": "1.7.0",
+    "phaser": "3.9.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-template": "^6.2.0",
+    "parcel-bundler": "^1.6.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "keywords": []
+}
