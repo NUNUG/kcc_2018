@@ -1,0 +1,29 @@
+TODO:
+(Must)
+- Simplify main module code.  Fewer lines, shorter names.
+(Should)
+- HUD
+-- cooldowns
+-- labels
+- Add collision explosions.  Could be so freaking cool.
+- Move infrequent metrics to config.GameData class so that things can be tuned more easily.
+- Find / fix bug where weapons stop firing, sound goes nuts (super loud and wrong) and 
+  shards start flying in  from every corner in unreasonable numbers.
+v/ Nerf the multimissile
+(Want)
+- Title screen (Graphics & music done. Needs coding)
+
+
+Weapon ideas
+- Gun (slow) *
+- Fast gun
+- Spread gun * (Shrapnel gun?)
+- Missile *
+- Multimissile array *
+- Shrapnel missile
+- Homing missile
+- Launch turret satellites
+- Scramble fighters
+- Controlled detonation bombs
+- Black hole (swallows a region for a few seconds)
+- Laser (Instant breakup of 0s and 1 but ineffective on larger ones?).  Has warmup, cooldown and overheat
